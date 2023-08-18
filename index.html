@@ -416,8 +416,17 @@
         </div>
       </div>
     </footer>
-    <div class="modal-window is-hidden" data-modal-open="">
-      <script src="./js/modal.js"></script>
-    </div>
+
+<!-- Modal window -->
+<div data-modal="" class="backdrop is-hidden">
+  <div class="modal">
+    <button data-modal-close="" class="modal-btn" type="button">
+      <svg class="modal-btn-icon" width="8" height="8">
+             <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
   </body>
 </html>
