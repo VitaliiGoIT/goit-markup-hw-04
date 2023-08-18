@@ -213,16 +213,7 @@ img {
     padding: 120px 0;
 }
 
-.benefits-section-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-
-}
+.benefits-section-container {}
 
 .benefits-list {
     display: flex;
@@ -233,7 +224,7 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.benefit-icon {
+.benefits-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -604,7 +595,8 @@ img {
 
 }
 
-.projects-item-link:hover .overlay {
+.projects-item-link:hover .overlay,
+.projects-item-link:focus .overlay {
     transform: translateY(0%);
 }
 
